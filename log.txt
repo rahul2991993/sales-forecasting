@@ -1,0 +1,8 @@
+    1   source /c/Users/rahul/Documents/technical_assignment/.venv/Scripts/activate
+    2  history
+    3  cat ~/.bash_history
+    4  history -a
+    5   source /c/Users/rahul/Documents/sales-forecasting/.venv/Scripts/activate
+    6  docker build -t sales-forecasting-api .
+    7  docker build -t sales-forecasting-api .
+    8  history > log.txt 

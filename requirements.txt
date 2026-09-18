@@ -1,0 +1,12 @@
+google-cloud-bigquery
+google-cloud-bigquery-storage
+numpy
+pandas
+pyarrow
+python-dotenv
+db-dtypes
+joblib
+lightgbm
+fastapi[standard]
+pydantic
+scikit-learn
