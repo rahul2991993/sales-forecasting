@@ -3,6 +3,24 @@
     3  cat ~/.bash_history
     4  history -a
     5   source /c/Users/rahul/Documents/sales-forecasting/.venv/Scripts/activate
-    6  docker build -t sales-forecasting-api .
-    7  docker build -t sales-forecasting-api .
-    8  history > log.txt 
+    6  which python
+    7  docker ps
+    8  curl http://127.0.0.1:8080/health
+    9  ls "$APPDATA/gcloud/application_default_credentials.json"
+   10  docker stop 080f7c115e18
+   11  docker logs 080f7c115e18
+   12  docker ps
+   13  docker exec -it 54e132840374 ls -l /tmp/adc.json
+   14  MSYS_NO_PATHCONV=1 docker exec -it 54e132840374 ls -l /tmp/adc.json
+   15  MSYS_NO_PATHCONV=1 docker exec -it 54e132840374 printenv GOOGLE_APPLICATION_CREDENTIALS
+   16  [200~curl -X POST   "http://127.0.0.1:8080/forecast"   -H "Content-Type: application/json"   -d '{
+    "forecast_origin": "2026-04-30",
+    "horizon": 31
+MSYS_NO_PATHCONV=1 docker exec -it 54e132840374 printenv GOOGLE_APPLICATION_CREDENTIALS
+
+
+   17  curl -X POST   "http://127.0.0.1:8080/forecast"   -H "Content-Type: application/json"   -d '{
+    "forecast_origin": "2026-04-30",
+    "horizon": 31
+  }'
+   18  history >log.txt 

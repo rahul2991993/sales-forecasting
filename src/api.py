@@ -166,12 +166,9 @@ def forecast_sales(
             detail=str(error),
         ) from error
 
-    except Exception as error:
-        LOGGER.exception(
-            "Forecast generation failed."
-        )
-
+    except Exception as exc:
+        LOGGER.exception("Forecast generation failed.")
         raise HTTPException(
             status_code=500,
-            detail="Forecast generation failed.",
-        ) from error
+            detail=str(exc),
+        ) from exc
